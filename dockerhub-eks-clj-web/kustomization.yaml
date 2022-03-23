@@ -2,7 +2,6 @@ namespace: production
 resources:
 - deployment.yaml
 - service.yaml
-- namespace.yaml
 - regcred.yaml
 - ingress.yaml
 commonLabels:
