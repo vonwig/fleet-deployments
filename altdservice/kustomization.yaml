@@ -6,7 +6,7 @@ resources:
 commonLabels:
   app.kubernetes.io/name: altdservice
 images:
-- name: hub.docker.com/slimslenderslacks/altdservice
+- name: slimslenderslacks/altdservice
   newTag: v9
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
