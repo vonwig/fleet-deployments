@@ -7,7 +7,7 @@ commonLabels:
   app.kubernetes.io/name: nodejs-service
 images:
 - name: gcr.io/personalsdm-216019/nodejs-service
-  newTag: pr_3d336b3
+  newTag: main_584d37c
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 decryption:
