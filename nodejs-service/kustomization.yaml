@@ -7,7 +7,7 @@ commonLabels:
   app.kubernetes.io/name: nodejs-service
 images:
 - name: vonwig/nodejs-service
-  newTag: ac7ec49
+  newTag: fe2b01c
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 decryption:
